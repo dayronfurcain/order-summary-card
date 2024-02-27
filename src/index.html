@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-[hsl(225_100%_94%)]">
+    <picture class="absolute z-[-1] top-0 left-0 right-0">
+      <source
+        media="(min-width: 375px)"
+        srcset="./images/pattern-background-desktop.svg"
+      />
+      <img
+        src="images/pattern-background-mobile.svg"
+        alt="bg-image"
+        class="w-full"
+      />
+    </picture>
+    <main class="h-screen grid gap-4 place-content-center">
+      <article
+        class="mx-4 bg-[hsl(224_100%_95%)] rounded-2xl overflow-hidden max-w-96 shadow-2xl"
+      >
+        <div>
+          <img src="./images/illustration-hero.svg" alt="hero-image" />
+        </div>
+        <div
+          class="px-4 py-8 flex flex-col gap-6 text-center font-red-hat-display font-medium"
+        >
+          <h1 class="text-2xl font-black text-[hsl(223_47%_23%)]">
+            Order Summary
+          </h1>
+          <p class="text-[hsl(224_23%_55%)]">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="flex gap-4 items-center px-4">
+            <img src="./images/icon-music.svg" alt="icon-music" class="w-10" />
+
+            <div class="flex-1 text-start">
+              <h2 class="font-bold text-[hsl(223_47%_23%)]">Annual Plan</h2>
+              <span class="text-[hsl(224_23%_55%)]">$59.99/year</span>
+            </div>
+            <a
+              href=""
+              class="underline hover:no-underline hover:text-[hsl(245_75%_52%_/_70%)] font-bold text-[hsl(245_75%_52%)] text-[15px]"
+              >Change</a
+            >
+          </div>
+          <button
+            class="py-4 rounded-lg bg-[hsl(245_75%_52%)] text-white font-bold text-[15px] hover:bg-[hsl(245_75%_52%_/70%)] shadow-lg shadow-[hsl(245_75%_52%)]"
+          >
+            Change Proceed to Payment
+          </button>
+          <a
+            href="#"
+            class="text-[hsl(224_23%_55%)] font-bold text-[15px] hover:text-[hsl(223_47%_23%)]"
+            >Cancel Order</a
+          >
+        </div>
+      </article>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Dayron Furcain</a>.
+      </div>
+    </main>
+  </body>
+</html>
