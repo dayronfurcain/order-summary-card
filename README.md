@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Order Summary Card](https://github.com/dayronfurcain/order-summary-card)
+- Live Site URL: [Order Summary Card](https://stellular-florentine-5f2a46.netlify.app/)
 
 ## My process
 
